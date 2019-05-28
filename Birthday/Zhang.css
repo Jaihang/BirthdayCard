@@ -10,7 +10,7 @@ body{
 }
 
 #layout{
-    background-color: beige;
+    background: linear-gradient(0deg, rgba(248,177,149,1) 0%, rgba(192,108,132,1) 41%, rgba(53,92,125,1) 97%);
     width: 50vw;
     height: 45vh;
     display: flex;
@@ -27,8 +27,8 @@ p{
     margin-left: -25vw;
     padding: 0;
     font-family: cursive;
-    color: darkblue;
-    font-size: 1.5em;
+    color: ghostwhite;
+    font-size: 2.0em;
     opacity: 0;
     text-align: center;
 }
@@ -58,8 +58,7 @@ p{
     animation: fadeIn 2s cubic-bezier(0.3, 1.3, 0.7, 0.9) 4.5s 1 forwards;
 }
 
-.congrats p{
-    background-color: aqua; 
+.congrats p{ 
     animation: fadeIn 5s cubic-bezier(0.3, 1.3, 0.7, 0.9) 12s 1 forwards;
 }
 
